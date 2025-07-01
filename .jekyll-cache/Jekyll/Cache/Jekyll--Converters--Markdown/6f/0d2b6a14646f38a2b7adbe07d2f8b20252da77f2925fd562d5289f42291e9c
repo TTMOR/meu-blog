@@ -1,0 +1,66 @@
+I"C<h2 id="-visão-geral">🔍 Visão Geral</h2>
+
+<p>Neste post mostro como <strong>usar extensões do Chrome (.crx)</strong> com Selenium, focando em automações como testes de WhatsApp Web, YouTube etc.</p>
+
+<hr />
+
+<h2 id="-passo-1--encontrar-o-id-da-extensão">🎯 Passo 1 — Encontrar o ID da extensão</h2>
+
+<p>Exemplo:</p>
+
+<p>https://chromewebstore.google.com/detail/sponsorblock/mnjggcdmjocbbbhaepdhchncahnbgone</p>
+
+<p>ID: <code class="language-plaintext highlighter-rouge">mnjggcdmjocbbbhaepdhchncahnbgone</code></p>
+
+<hr />
+
+<h2 id="-passo-2--baixar-o-crx">🧩 Passo 2 — Baixar o <code class="language-plaintext highlighter-rouge">.crx</code></h2>
+
+<p>Use um dos sites:</p>
+
+<ul>
+  <li><a href="https://chrome-extension-downloader.com">chrome-extension-downloader.com</a></li>
+  <li><a href="https://crx.dam.io">crx.dam.io</a></li>
+</ul>
+
+<p>Cole o link da extensão e baixe o <code class="language-plaintext highlighter-rouge">.crx</code>.</p>
+
+<hr />
+
+<h2 id="-passo-3--usar-com-selenium">💻 Passo 3 — Usar com Selenium</h2>
+
+<p>```python
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options</p>
+
+<p>options = Options()
+options.add_extension(‘/caminho/para/SponsorBlock.crx’)</p>
+
+<p>driver = webdriver.Chrome(options=options)
+driver.get(“https://web.whatsapp.com”)</p>
+
+<p>🧠 Dica extra: Repositório de extensões confiáveis
+Você pode manter um diretório com .crx revisados para uso interno ou educacional.</p>
+
+<p>Exemplo de estrutura:</p>
+
+<p>plaintext
+Copiar
+Editar
+meu_blog/
+└── assets/
+    └── crx/
+        ├── sponsorblock.crx
+        ├── darkreader.crx
+        └── custom-blocker.crx
+E incluir no Selenium:</p>
+
+<p>python
+Copiar
+Editar
+options.add_extension(‘assets/crx/sponsorblock.crx’)
+📘 Finalizando
+Esse método permite uma automação mais flexível, sem depender de uma instalação manual das extensões no navegador. Ideal para projetos com foco em testes, scraping, e automações web avançadas.</p>
+
+<p>Fique à vontade para adaptar o código e ampliar a lista de extensões úteis! 🚀</p>
+:ET

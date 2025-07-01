@@ -1,0 +1,50 @@
+I"�<h1 id="-quimedu-um-simulador-educacional-interativo-para-química">🧪 QuimEdu: Um Simulador Educacional Interativo para Química</h1>
+
+<p><strong>Python</strong>, <strong>Jupyter Notebook</strong>, <strong>Jekyll</strong>, <strong>Markdown</strong>, <strong>Microsoft Partner</strong>.</p>
+
+<h2 id="-objetivo">🎯 Objetivo</h2>
+
+<ul>
+  <li>Aplicativo para ensino e pesquisa unificando banco de dados em um só local</li>
+  <li>Análise estatística, gerando descritores confiáveis com bases de dados relevantes</li>
+  <li>Mapa de cargas e gráfico 3D interativo para visualização molecular</li>
+  <li>Disponível em breve no AppSource da Microsoft!</li>
+</ul>
+
+<h2 id="-tecnologias-utilizadas">🧰 Tecnologias Utilizadas</h2>
+<ul>
+  <li>Python (padrão ouro na comunidade científica)</li>
+  <li>Jupyter Notebook (para desenvolvimento gradual)</li>
+  <li>GitHub Pages + Jekyll (para publicação do conteúdo)</li>
+  <li>Markdown (para documentação)</li>
+</ul>
+
+<h2 id="-algumas-bibliotecas-utilizadas">🧬 Algumas Bibliotecas Utilizadas</h2>
+
+<ul>
+  <li>RDKit</li>
+  <li>OpenBabel</li>
+  <li>Chainer</li>
+  <li>PubChemPy</li>
+</ul>
+
+<h2 id="-imagens-do-quimedu">💡 Imagens do QuimEdu</h2>
+
+<p><img src="/assets/images/inicial.png" alt="Página inicial" />
+<img src="/assets/images/segunda.png" alt="CID PubChem" />
+<img src="/assets/images/descritor.png" alt="Descritores" />
+<img src="/assets/images/grafico.png" alt="Gráfico 3D" />
+<img src="/assets/images/carga.png" alt="Mapa de carga" />
+<img src="/assets/images/qm9.png" alt="QM9 dataset" /></p>
+
+<hr />
+
+<h2 id="-privacidade-e-suporte">📄 Privacidade e Suporte</h2>
+
+<ul>
+  <li><a href="/privacidade/">Política de Privacidade</a></li>
+  <li><a href="/suporte/">Suporte</a></li>
+</ul>
+
+<hr />
+:ET

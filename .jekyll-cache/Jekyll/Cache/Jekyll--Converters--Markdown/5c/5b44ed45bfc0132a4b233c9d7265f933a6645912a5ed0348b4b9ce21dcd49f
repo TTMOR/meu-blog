@@ -1,0 +1,141 @@
+I" .<h1 id="passo-1">passo 1</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">rdkit</span><span class="o">-</span>
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Requirement already satisfied: rdkit in c:\users\tiago\appdata\local\programs\anaconda\lib\site-packages (2023.9.3)
+Collecting rdkit
+  Downloading rdkit-2024.3.5-cp311-cp311-win_amd64.whl.metadata (4.0 kB)
+Requirement already satisfied: numpy in c:\users\tiago\appdata\local\programs\anaconda\lib\site-packages (from rdkit) (1.26.4)
+Requirement already satisfied: Pillow in c:\users\tiago\appdata\local\programs\anaconda\lib\site-packages (from rdkit) (10.0.1)
+Downloading rdkit-2024.3.5-cp311-cp311-win_amd64.whl (21.7 MB)
+   ---------------------------------------- 0.0/21.7 MB ? eta -:--:--
+   -- ------------------------------------- 1.3/21.7 MB 6.7 MB/s eta 0:00:04
+   ----- ---------------------------------- 3.1/21.7 MB 8.0 MB/s eta 0:00:03
+   --------- ------------------------------ 5.0/21.7 MB 8.6 MB/s eta 0:00:02
+   ------------- -------------------------- 7.6/21.7 MB 9.4 MB/s eta 0:00:02
+   ----------------- ---------------------- 9.7/21.7 MB 9.6 MB/s eta 0:00:02
+   ---------------------- ----------------- 12.3/21.7 MB 9.9 MB/s eta 0:00:01
+   -------------------------- ------------- 14.4/21.7 MB 10.0 MB/s eta 0:00:01
+   ------------------------------- -------- 17.0/21.7 MB 10.2 MB/s eta 0:00:01
+   ----------------------------------- ---- 19.4/21.7 MB 10.4 MB/s eta 0:00:01
+   ---------------------------------------  21.5/21.7 MB 10.5 MB/s eta 0:00:01
+   ---------------------------------------- 21.7/21.7 MB 10.0 MB/s eta 0:00:00
+Installing collected packages: rdkit
+  Attempting uninstall: rdkit
+    Found existing installation: rdkit 2023.9.3
+    Uninstalling rdkit-2023.9.3:
+      Successfully uninstalled rdkit-2023.9.3
+Successfully installed rdkit-2024.3.5
+
+
+  WARNING: Failed to remove contents in a temporary directory 'C:\Users\tiago\AppData\Local\Programs\Anaconda\Lib\site-packages\~dkit'.
+  You can safely remove it manually.
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">AllChem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">DataStructs</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem.AtomPairs</span> <span class="kn">import</span> <span class="n">Pairs</span>
+<span class="n">smiles</span> <span class="o">=</span> <span class="s">'FC(F)(C(F)(C(O)=O)F)C(F)(F)F'</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">prop</span> <span class="o">=</span> <span class="n">atom</span><span class="p">.</span><span class="n">GetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'%s | %s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">atom</span><span class="p">.</span><span class="n">GetSymbol</span><span class="p">(),</span> <span class="n">prop</span><span class="p">))</span>
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>F | -0.18847445561314791
+C | 0.41381329177535614
+F | -0.18847445561314791
+C | 0.41320669293153911
+F | -0.18611676986581191
+C | 0.38122831825651354
+O | -0.47662566423596492
+O | -0.24490878935347329
+F | -0.18611676986581191
+C | 0.46009468700965073
+F | -0.16471144158182188
+F | -0.16471144158182188
+F | -0.16471144158182188
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fingerprint_one</span> <span class="o">=</span> <span class="n">AllChem</span><span class="p">.</span><span class="n">GetMorganFingerprintAsBitVect</span><span class="p">(</span>
+    <span class="n">molecule</span><span class="p">,</span> 
+    <span class="mi">1</span><span class="p">,</span>  
+    <span class="n">nBits</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span>
+    <span class="n">useFeatures</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">atom</span><span class="p">.</span><span class="n">SetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">prop</span> <span class="o">=</span> <span class="n">atom</span><span class="p">.</span><span class="n">GetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span>
+    <span class="k">print</span> <span class="p">(</span> <span class="s">'%s | %s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">atom</span><span class="p">.</span><span class="n">GetSymbol</span><span class="p">(),</span> <span class="n">prop</span><span class="p">))</span>
+    <span class="k">break</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>F | 0
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fingerprint_two</span> <span class="o">=</span> <span class="n">AllChem</span><span class="p">.</span><span class="n">GetMorganFingerprintAsBitVect</span><span class="p">(</span>
+    <span class="n">molecule</span><span class="p">,</span> 
+    <span class="mi">1</span><span class="p">,</span>  
+    <span class="n">nBits</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span>
+    <span class="n">useFeatures</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">DataStructs</span><span class="p">.</span><span class="n">DiceSimilarity</span><span class="p">(</span><span class="n">fingerprint_one</span><span class="p">,</span> <span class="n">fingerprint_two</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1.0
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">AllChem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">DataStructs</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem.AtomPairs</span> <span class="kn">import</span> <span class="n">Pairs</span>
+<span class="n">smiles</span> <span class="o">=</span> <span class="s">'FC(F)(C(F)(C(O)=O)F)C(F)(F)F'</span>
+
+<span class="n">molecule</span> <span class="o">=</span> <span class="n">Chem</span><span class="p">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
+<span class="n">AllChem</span><span class="p">.</span><span class="n">ComputeGasteigerCharges</span><span class="p">(</span><span class="n">molecule</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">prop</span> <span class="o">=</span> <span class="n">atom</span><span class="p">.</span><span class="n">GetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span>
+    <span class="k">print</span> <span class="p">(</span> <span class="s">'%s | %s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">atom</span><span class="p">.</span><span class="n">GetSymbol</span><span class="p">(),</span> <span class="n">prop</span><span class="p">))</span>
+
+<span class="kn">from</span> <span class="nn">rdkit.Chem.Draw</span> <span class="kn">import</span> <span class="n">SimilarityMaps</span>
+<span class="n">contribs</span> <span class="o">=</span> <span class="p">[</span><span class="n">molecule</span><span class="p">.</span><span class="n">GetAtomWithIdx</span><span class="p">(</span><span class="n">i</span><span class="p">).</span><span class="n">GetDoubleProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">molecule</span><span class="p">.</span><span class="n">GetNumAtoms</span><span class="p">())]</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">SimilarityMaps</span><span class="p">.</span><span class="n">GetSimilarityMapFromWeights</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span> <span class="n">contribs</span><span class="p">,</span> <span class="n">colorMap</span><span class="o">=</span><span class="s">'jet'</span><span class="p">,</span> <span class="n">contourLines</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>F | -0.18847445561314791
+C | 0.41381329177535614
+F | -0.18847445561314791
+C | 0.41320669293153911
+F | -0.18611676986581191
+C | 0.38122831825651354
+O | -0.47662566423596492
+O | -0.24490878935347329
+F | -0.18611676986581191
+C | 0.46009468700965073
+F | -0.16471144158182188
+F | -0.16471144158182188
+F | -0.16471144158182188
+</code></pre></div></div>
+
+<p><img src="output_8_1.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+:ET

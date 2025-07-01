@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-01T14:12:35-03:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">QuimEdu - Simulador Educacional</title><link href="http://localhost:4000/2025/07/01/QuimEdu-simulador-Educacional.html" rel="alternate" type="text/html" title="QuimEdu - Simulador Educacional" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>http://localhost:4000/2025/07/01/QuimEdu-simulador-Educacional</id><content type="html" xml:base="http://localhost:4000/2025/07/01/QuimEdu-simulador-Educacional.html"><![CDATA[<h1 id="-quimedu-um-simulador-educacional-interativo-para-química">🧪 QuimEdu: Um Simulador Educacional Interativo para Química</h1>
+
+<p><strong>Python</strong>, <strong>Jupyter Notebook</strong>, <strong>Jekyll</strong>, <strong>Markdown</strong>, <strong>Microsoft Partner</strong>.</p>
+
+<h2 id="-objetivo">🎯 Objetivo</h2>
+
+<ul>
+  <li>Aplicativo para ensino e pesquisa unificando banco de dados em um só local</li>
+  <li>Análise estatística, gerando descritores confiáveis com bases de dados relevantes</li>
+  <li>Mapa de cargas e gráfico 3D interativo para visualização molecular</li>
+  <li>Disponível em breve no AppSource da Microsoft!</li>
+</ul>
+
+<h2 id="-tecnologias-utilizadas">🧰 Tecnologias Utilizadas</h2>
+<ul>
+  <li>Python (padrão ouro na comunidade científica)</li>
+  <li>Jupyter Notebook (para desenvolvimento gradual)</li>
+  <li>GitHub Pages + Jekyll (para publicação do conteúdo)</li>
+  <li>Markdown (para documentação)</li>
+</ul>
+
+<h2 id="-algumas-bibliotecas-utilizadas">🧬 Algumas Bibliotecas Utilizadas</h2>
+
+<ul>
+  <li>RDKit</li>
+  <li>OpenBabel</li>
+  <li>Chainer</li>
+  <li>PubChemPy</li>
+</ul>
+
+<h2 id="-imagens-do-quimedu">💡 Imagens do QuimEdu</h2>
+
+<p><img src="/assets/images/inicial.png" alt="Página inicial" />
+<img src="/assets/images/segunda.png" alt="CID PubChem" />
+<img src="/assets/images/descritor.png" alt="Descritores" />
+<img src="/assets/images/grafico.png" alt="Gráfico 3D" />
+<img src="/assets/images/carga.png" alt="Mapa de carga" />
+<img src="/assets/images/qm9.png" alt="QM9 dataset" /></p>
+
+<hr />
+
+<h2 id="-privacidade-e-suporte">📄 Privacidade e Suporte</h2>
+
+<ul>
+  <li><a href="/privacidade/">Política de Privacidade</a></li>
+  <li><a href="/suporte/">Suporte</a></li>
+</ul>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[🧪 QuimEdu: Um Simulador Educacional Interativo para Química]]></summary></entry><entry><title type="html">Suporte</title><link href="http://localhost:4000/suporte/" rel="alternate" type="text/html" title="Suporte" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>http://localhost:4000/suport</id><content type="html" xml:base="http://localhost:4000/suporte/"><![CDATA[<h1 id="suporte-ao-usuário">Suporte ao Usuário</h1>
+
+<p>Precisa de ajuda com o <strong>QuimEdu</strong>? Estamos aqui para ajudar!</p>
+
+<h2 id="️-canal-de-atendimento">✉️ Canal de Atendimento</h2>
+
+<ul>
+  <li>E-mail: <a href="mailto:tiagomoreira@quimio.tech">tiagomoreira@quimio.tech</a></li>
+  <li>Tempo médio de resposta: até 2 dias úteis</li>
+</ul>
+
+<h2 id="-documentação">📘 Documentação</h2>
+
+<p>Consulte no Appsource e postagens que serão colocadas para mais informações sobre funcionalidades, bibliotecas utilizadas e dicas de uso. Em breve na Microsoft!</p>
+
+<h2 id="-sugestões">💡 Sugestões</h2>
+
+<p>Tem alguma ideia para melhorar o QuimEdu? Fique à vontade para nos escrever — adoramos feedbacks construtivos!</p>
+
+<hr />
+
+<p><em>Agradecemos por usar o QuimEdu. Nosso compromisso é com a educação, a ciência e a transparência.</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Suporte ao Usuário]]></summary></entry><entry><title type="html">Política de Privacidade</title><link href="http://localhost:4000/privacidade/" rel="alternate" type="text/html" title="Política de Privacidade" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>http://localhost:4000/privacy-police</id><content type="html" xml:base="http://localhost:4000/privacidade/"><![CDATA[<h1 id="política-de-privacidade">Política de Privacidade</h1>
+
+<p>Última atualização: 01 de julho de 2025</p>
+
+<p>O <strong>QuimEdu</strong> respeita e protege sua privacidade. Este simulador educacional foi desenvolvido com o compromisso de garantir a segurança e a confidencialidade dos dados de seus usuários. A seguir, apresentamos como suas informações são tratadas:</p>
+
+<h2 id="-coleta-de-dados">📌 Coleta de Dados</h2>
+
+<ul>
+  <li>O QuimEdu <strong>não coleta informações pessoais identificáveis</strong>.</li>
+  <li>Todas as análises são realizadas <strong>localmente</strong> no ambiente do usuário.</li>
+  <li>O simulador <strong>não armazena, compartilha ou transmite dados</strong> para servidores externos.</li>
+</ul>
+
+<h2 id="-segurança">🔐 Segurança</h2>
+
+<ul>
+  <li>O QuimEdu foi desenvolvido com boas práticas de segurança digital.</li>
+  <li>O uso do aplicativo é inteiramente offline e seguro para fins acadêmicos e científicos.</li>
+</ul>
+
+<h2 id="-direitos-do-usuário">🧾 Direitos do Usuário</h2>
+
+<ul>
+  <li>Você tem o direito de solicitar informações sobre este aplicativo ou relatar qualquer incidente relacionado à privacidade.</li>
+  <li>Em caso de dúvidas, entre em contato pelo canal abaixo.</li>
+</ul>
+
+<h2 id="-contato">📫 Contato</h2>
+
+<p>Para questões relacionadas à privacidade, envie um e-mail para<br />
+<a href="mailto:tiagomoreira@quimio.tech">tiagomoreira@quimio.tech</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Política de Privacidade]]></summary></entry><entry><title type="html">Gerando mapa de Carga Jupyter</title><link href="http://localhost:4000/2025/06/08/gerar-mapa-de-carga.html" rel="alternate" type="text/html" title="Gerando mapa de Carga Jupyter" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/08/gerar-mapa-de-carga</id><content type="html" xml:base="http://localhost:4000/2025/06/08/gerar-mapa-de-carga.html"><![CDATA[<h1 id="passo-1">passo 1</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">rdkit</span><span class="o">-</span>
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Requirement already satisfied: rdkit in c:\users\tiago\appdata\local\programs\anaconda\lib\site-packages (2023.9.3)
+Collecting rdkit
+  Downloading rdkit-2024.3.5-cp311-cp311-win_amd64.whl.metadata (4.0 kB)
+Requirement already satisfied: numpy in c:\users\tiago\appdata\local\programs\anaconda\lib\site-packages (from rdkit) (1.26.4)
+Requirement already satisfied: Pillow in c:\users\tiago\appdata\local\programs\anaconda\lib\site-packages (from rdkit) (10.0.1)
+Downloading rdkit-2024.3.5-cp311-cp311-win_amd64.whl (21.7 MB)
+   ---------------------------------------- 0.0/21.7 MB ? eta -:--:--
+   -- ------------------------------------- 1.3/21.7 MB 6.7 MB/s eta 0:00:04
+   ----- ---------------------------------- 3.1/21.7 MB 8.0 MB/s eta 0:00:03
+   --------- ------------------------------ 5.0/21.7 MB 8.6 MB/s eta 0:00:02
+   ------------- -------------------------- 7.6/21.7 MB 9.4 MB/s eta 0:00:02
+   ----------------- ---------------------- 9.7/21.7 MB 9.6 MB/s eta 0:00:02
+   ---------------------- ----------------- 12.3/21.7 MB 9.9 MB/s eta 0:00:01
+   -------------------------- ------------- 14.4/21.7 MB 10.0 MB/s eta 0:00:01
+   ------------------------------- -------- 17.0/21.7 MB 10.2 MB/s eta 0:00:01
+   ----------------------------------- ---- 19.4/21.7 MB 10.4 MB/s eta 0:00:01
+   ---------------------------------------  21.5/21.7 MB 10.5 MB/s eta 0:00:01
+   ---------------------------------------- 21.7/21.7 MB 10.0 MB/s eta 0:00:00
+Installing collected packages: rdkit
+  Attempting uninstall: rdkit
+    Found existing installation: rdkit 2023.9.3
+    Uninstalling rdkit-2023.9.3:
+      Successfully uninstalled rdkit-2023.9.3
+Successfully installed rdkit-2024.3.5
+
+
+  WARNING: Failed to remove contents in a temporary directory 'C:\Users\tiago\AppData\Local\Programs\Anaconda\Lib\site-packages\~dkit'.
+  You can safely remove it manually.
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">AllChem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">DataStructs</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem.AtomPairs</span> <span class="kn">import</span> <span class="n">Pairs</span>
+<span class="n">smiles</span> <span class="o">=</span> <span class="s">'FC(F)(C(F)(C(O)=O)F)C(F)(F)F'</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">prop</span> <span class="o">=</span> <span class="n">atom</span><span class="p">.</span><span class="n">GetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'%s | %s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">atom</span><span class="p">.</span><span class="n">GetSymbol</span><span class="p">(),</span> <span class="n">prop</span><span class="p">))</span>
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>F | -0.18847445561314791
+C | 0.41381329177535614
+F | -0.18847445561314791
+C | 0.41320669293153911
+F | -0.18611676986581191
+C | 0.38122831825651354
+O | -0.47662566423596492
+O | -0.24490878935347329
+F | -0.18611676986581191
+C | 0.46009468700965073
+F | -0.16471144158182188
+F | -0.16471144158182188
+F | -0.16471144158182188
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fingerprint_one</span> <span class="o">=</span> <span class="n">AllChem</span><span class="p">.</span><span class="n">GetMorganFingerprintAsBitVect</span><span class="p">(</span>
+    <span class="n">molecule</span><span class="p">,</span> 
+    <span class="mi">1</span><span class="p">,</span>  
+    <span class="n">nBits</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span>
+    <span class="n">useFeatures</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">atom</span><span class="p">.</span><span class="n">SetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">prop</span> <span class="o">=</span> <span class="n">atom</span><span class="p">.</span><span class="n">GetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span>
+    <span class="k">print</span> <span class="p">(</span> <span class="s">'%s | %s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">atom</span><span class="p">.</span><span class="n">GetSymbol</span><span class="p">(),</span> <span class="n">prop</span><span class="p">))</span>
+    <span class="k">break</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>F | 0
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fingerprint_two</span> <span class="o">=</span> <span class="n">AllChem</span><span class="p">.</span><span class="n">GetMorganFingerprintAsBitVect</span><span class="p">(</span>
+    <span class="n">molecule</span><span class="p">,</span> 
+    <span class="mi">1</span><span class="p">,</span>  
+    <span class="n">nBits</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span>
+    <span class="n">useFeatures</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">DataStructs</span><span class="p">.</span><span class="n">DiceSimilarity</span><span class="p">(</span><span class="n">fingerprint_one</span><span class="p">,</span> <span class="n">fingerprint_two</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1.0
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">AllChem</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">DataStructs</span>
+<span class="kn">from</span> <span class="nn">rdkit.Chem.AtomPairs</span> <span class="kn">import</span> <span class="n">Pairs</span>
+<span class="n">smiles</span> <span class="o">=</span> <span class="s">'FC(F)(C(F)(C(O)=O)F)C(F)(F)F'</span>
+
+<span class="n">molecule</span> <span class="o">=</span> <span class="n">Chem</span><span class="p">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
+<span class="n">AllChem</span><span class="p">.</span><span class="n">ComputeGasteigerCharges</span><span class="p">(</span><span class="n">molecule</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">molecule</span><span class="p">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+    <span class="n">prop</span> <span class="o">=</span> <span class="n">atom</span><span class="p">.</span><span class="n">GetProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span>
+    <span class="k">print</span> <span class="p">(</span> <span class="s">'%s | %s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">atom</span><span class="p">.</span><span class="n">GetSymbol</span><span class="p">(),</span> <span class="n">prop</span><span class="p">))</span>
+
+<span class="kn">from</span> <span class="nn">rdkit.Chem.Draw</span> <span class="kn">import</span> <span class="n">SimilarityMaps</span>
+<span class="n">contribs</span> <span class="o">=</span> <span class="p">[</span><span class="n">molecule</span><span class="p">.</span><span class="n">GetAtomWithIdx</span><span class="p">(</span><span class="n">i</span><span class="p">).</span><span class="n">GetDoubleProp</span><span class="p">(</span><span class="s">'_GasteigerCharge'</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">molecule</span><span class="p">.</span><span class="n">GetNumAtoms</span><span class="p">())]</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">SimilarityMaps</span><span class="p">.</span><span class="n">GetSimilarityMapFromWeights</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span> <span class="n">contribs</span><span class="p">,</span> <span class="n">colorMap</span><span class="o">=</span><span class="s">'jet'</span><span class="p">,</span> <span class="n">contourLines</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>F | -0.18847445561314791
+C | 0.41381329177535614
+F | -0.18847445561314791
+C | 0.41320669293153911
+F | -0.18611676986581191
+C | 0.38122831825651354
+O | -0.47662566423596492
+O | -0.24490878935347329
+F | -0.18611676986581191
+C | 0.46009468700965073
+F | -0.16471144158182188
+F | -0.16471144158182188
+F | -0.16471144158182188
+</code></pre></div></div>
+
+<p><img src="output_8_1.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[passo 1]]></summary></entry><entry><title type="html">Usar Extensões do Chrome (.crx) com Selenium</title><link href="http://localhost:4000/automacao/selenium/navegador/2025/06/08/extensions-selenium.html" rel="alternate" type="text/html" title="Usar Extensões do Chrome (.crx) com Selenium" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>http://localhost:4000/automacao/selenium/navegador/2025/06/08/extensions-selenium</id><content type="html" xml:base="http://localhost:4000/automacao/selenium/navegador/2025/06/08/extensions-selenium.html"><![CDATA[<h2 id="-visão-geral">🔍 Visão Geral</h2>
+
+<p>Neste post mostro como <strong>usar extensões do Chrome (.crx)</strong> com Selenium, focando em automações como testes de WhatsApp Web, YouTube etc.</p>
+
+<hr />
+
+<h2 id="-passo-1--encontrar-o-id-da-extensão">🎯 Passo 1 — Encontrar o ID da extensão</h2>
+
+<p>Exemplo:</p>
+
+<p>https://chromewebstore.google.com/detail/sponsorblock/mnjggcdmjocbbbhaepdhchncahnbgone</p>
+
+<p>ID: <code class="language-plaintext highlighter-rouge">mnjggcdmjocbbbhaepdhchncahnbgone</code></p>
+
+<hr />
+
+<h2 id="-passo-2--baixar-o-crx">🧩 Passo 2 — Baixar o <code class="language-plaintext highlighter-rouge">.crx</code></h2>
+
+<p>Use um dos sites:</p>
+
+<ul>
+  <li><a href="https://chrome-extension-downloader.com">chrome-extension-downloader.com</a></li>
+  <li><a href="https://crx.dam.io">crx.dam.io</a></li>
+</ul>
+
+<p>Cole o link da extensão e baixe o <code class="language-plaintext highlighter-rouge">.crx</code>.</p>
+
+<hr />
+
+<h2 id="-passo-3--usar-com-selenium">💻 Passo 3 — Usar com Selenium</h2>
+
+<p>```python
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options</p>
+
+<p>options = Options()
+options.add_extension(‘/caminho/para/SponsorBlock.crx’)</p>
+
+<p>driver = webdriver.Chrome(options=options)
+driver.get(“https://web.whatsapp.com”)</p>
+
+<p>🧠 Dica extra: Repositório de extensões confiáveis
+Você pode manter um diretório com .crx revisados para uso interno ou educacional.</p>
+
+<p>Exemplo de estrutura:</p>
+
+<p>plaintext
+Copiar
+Editar
+meu_blog/
+└── assets/
+    └── crx/
+        ├── sponsorblock.crx
+        ├── darkreader.crx
+        └── custom-blocker.crx
+E incluir no Selenium:</p>
+
+<p>python
+Copiar
+Editar
+options.add_extension(‘assets/crx/sponsorblock.crx’)
+📘 Finalizando
+Esse método permite uma automação mais flexível, sem depender de uma instalação manual das extensões no navegador. Ideal para projetos com foco em testes, scraping, e automações web avançadas.</p>
+
+<p>Fique à vontade para adaptar o código e ampliar a lista de extensões úteis! 🚀</p>]]></content><author><name></name></author><category term="automacao" /><category term="selenium" /><category term="navegador" /><summary type="html"><![CDATA[🔍 Visão Geral]]></summary></entry><entry><title type="html">Dask e novidades</title><link href="http://localhost:4000/2025/06/08/Dask-e-novidades.html" rel="alternate" type="text/html" title="Dask e novidades" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/08/Dask-e-novidades</id><content type="html" xml:base="http://localhost:4000/2025/06/08/Dask-e-novidades.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Como usar Python em quimica</title><link href="http://localhost:4000/2025/06/07/Como-usar-Python-em-quimica.html" rel="alternate" type="text/html" title="Como usar Python em quimica" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/07/Como-usar-Python-em-quimica</id><content type="html" xml:base="http://localhost:4000/2025/06/07/Como-usar-Python-em-quimica.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Frameworks similares</title><link href="http://localhost:4000/go/next/2025/06/07/frameworks-similares.html" rel="alternate" type="text/html" title="Frameworks similares" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/go/next/2025/06/07/frameworks-similares</id><content type="html" xml:base="http://localhost:4000/go/next/2025/06/07/frameworks-similares.html"><![CDATA[]]></content><author><name></name></author><category term="Go" /><category term="next" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jekyll, Ruby. Criando site técnico Back-end rodando localmente</title><link href="http://localhost:4000/2025/06/07/Subindo-em-backend.html" rel="alternate" type="text/html" title="Jekyll, Ruby. Criando site técnico Back-end rodando localmente" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/07/Subindo-em-backend</id><content type="html" xml:base="http://localhost:4000/2025/06/07/Subindo-em-backend.html"><![CDATA[<h1 id="-testando-a-qualidade-de-um-site-estático-para-reportes-técnicos">🎉 Testando a qualidade de um site estático para reportes técnicos.</h1>
+
+<p><strong>Ruby</strong> , <strong>Jekyll</strong>, <strong>powershell</strong> .</p>
+
+<h2 id="-objetivo">📌 Objetivo</h2>
+
+<ul>
+  <li>Aprender como o Jekyll funciona</li>
+  <li>Publicar diretamente com Markdown</li>
+  <li>Usar o CMD como backend</li>
+</ul>
+
+<h2 id="-código-de-exemplo-python">🧪 Código de exemplo (Python)</h2>
+
+<p>Isso é somente um teste. Depois vou colocar o markdown no Jypyter Notebook e ver. Estou editando pelo bloco de notas.</p>
+
+<p><img src="/assets/images/atento.png" alt="Imagem de atenção" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[🎉 Testando a qualidade de um site estático para reportes técnicos.]]></summary></entry><entry><title type="html">Savar em PDF</title><link href="http://localhost:4000/2025/06/07/Savar-em-PDF.html" rel="alternate" type="text/html" title="Savar em PDF" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/07/Savar-em-PDF</id><content type="html" xml:base="http://localhost:4000/2025/06/07/Savar-em-PDF.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
