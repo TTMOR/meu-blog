@@ -1,4 +1,4 @@
-I"�<h1 id="-saudações">📘 Saudações!</h1>
+I"�<h1 id="-saudações">📘 Saudações!</h1>
 
 <p>Criei via Backend  para documentar aprendizados, testes de código, relatórios técnicos etc.( Em construção!!)</p>
 
@@ -18,6 +18,9 @@
 
 <ul>
   <li>
+    <p><a href="/2025/08/05/politica-de-privacidade.html">Política de Privacidade</a></p>
+  </li>
+  <li>
     <p><a href="/suporte/">Suporte</a></p>
   </li>
   <li>
@@ -28,9 +31,6 @@
   </li>
   <li>
     <p><a href="/2025/06/08/gerar-mapa-de-carga.html">Gerando mapa de Carga Jupyter</a></p>
-  </li>
-  <li>
-    <p><a href="/automacao/selenium/navegador/2025/06/08/extensions-selenium.html">Usar Extensões do Chrome (.crx) com Selenium</a></p>
   </li>
 </ul>
 

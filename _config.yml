@@ -1,2 +1,13 @@
 theme: minima
 markdown: kramdown
+baseurl: "/meu-blog"
+exclude:
+  - Servidor Jekyll
+  - go
+  - automacao
+  - README.md
+  - .gitignore
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+

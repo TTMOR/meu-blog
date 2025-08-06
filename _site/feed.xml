@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-01T14:12:35-03:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">QuimEdu - Simulador Educacional</title><link href="http://localhost:4000/2025/07/01/QuimEdu-simulador-Educacional.html" rel="alternate" type="text/html" title="QuimEdu - Simulador Educacional" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>http://localhost:4000/2025/07/01/QuimEdu-simulador-Educacional</id><content type="html" xml:base="http://localhost:4000/2025/07/01/QuimEdu-simulador-Educacional.html"><![CDATA[<h1 id="-quimedu-um-simulador-educacional-interativo-para-química">🧪 QuimEdu: Um Simulador Educacional Interativo para Química</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/meu-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/meu-blog/" rel="alternate" type="text/html" /><updated>2025-08-05T23:22:13-03:00</updated><id>/meu-blog/feed.xml</id><entry><title type="html">Política de Privacidade</title><link href="/meu-blog/2025/08/05/politica-de-privacidade.html" rel="alternate" type="text/html" title="Política de Privacidade" /><published>2025-08-05T00:00:00-03:00</published><updated>2025-08-05T00:00:00-03:00</updated><id>/meu-blog/2025/08/05/politica-de-privacidade</id><content type="html" xml:base="/meu-blog/2025/08/05/politica-de-privacidade.html"><![CDATA[<h1 id="política-de-privacidade">Política de Privacidade</h1>
+<p>Última atualização: 05 de agosto de 2025
+O serviço de <strong>capacitação em Copilot e Office</strong> respeita e protege sua privacidade. Este serviço foi desenvolvido com o compromisso de garantir a segurança e a confidencialidade dos dados dos participantes. A seguir, apresentamos como suas informações são tratadas:</p>
+<h2 id="-coleta-de-dados">📌 Coleta de Dados</h2>
+<ul>
+  <li>Não coletamos informações pessoais sensíveis sem consentimento explícito.</li>
+  <li>Os dados fornecidos durante a capacitação (como nome e e-mail) são utilizados <strong>exclusivamente para fins de comunicação e certificação</strong>.</li>
+  <li>Nenhuma informação é compartilhada com terceiros ou utilizada para fins comerciais.
+    <h2 id="-segurança">🔐 Segurança</h2>
+  </li>
+  <li>Utilizamos plataformas seguras e reconhecidas (como Microsoft 365 e Render) para hospedagem e execução dos conteúdos.</li>
+  <li>Todo o acesso aos materiais e ferramentas é protegido por autenticação e segue boas práticas de segurança digital.
+    <h2 id="-direitos-do-usuário">🧾 Direitos do Usuário</h2>
+  </li>
+  <li>Você pode solicitar a exclusão ou alteração de seus dados a qualquer momento.</li>
+  <li>Tem o direito de saber como suas informações estão sendo utilizadas e protegidas.
+    <h2 id="-contato">📫 Contato</h2>
+    <p>Para questões relacionadas à privacidade, envie um e-mail para 
+<a href="mailto:tiagomoreira@quimio.tech">tiagomoreira@quimio.tech</a></p>
+  </li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Política de Privacidade Última atualização: 05 de agosto de 2025 O serviço de capacitação em Copilot e Office respeita e protege sua privacidade. Este serviço foi desenvolvido com o compromisso de garantir a segurança e a confidencialidade dos dados dos participantes. A seguir, apresentamos como suas informações são tratadas: 📌 Coleta de Dados Não coletamos informações pessoais sensíveis sem consentimento explícito. Os dados fornecidos durante a capacitação (como nome e e-mail) são utilizados exclusivamente para fins de comunicação e certificação. Nenhuma informação é compartilhada com terceiros ou utilizada para fins comerciais. 🔐 Segurança Utilizamos plataformas seguras e reconhecidas (como Microsoft 365 e Render) para hospedagem e execução dos conteúdos. Todo o acesso aos materiais e ferramentas é protegido por autenticação e segue boas práticas de segurança digital. 🧾 Direitos do Usuário Você pode solicitar a exclusão ou alteração de seus dados a qualquer momento. Tem o direito de saber como suas informações estão sendo utilizadas e protegidas. 📫 Contato Para questões relacionadas à privacidade, envie um e-mail para tiagomoreira@quimio.tech]]></summary></entry><entry><title type="html">QuimEdu - Simulador Educacional</title><link href="/meu-blog/2025/07/01/QuimEdu-simulador-Educacional.html" rel="alternate" type="text/html" title="QuimEdu - Simulador Educacional" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>/meu-blog/2025/07/01/QuimEdu-simulador-Educacional</id><content type="html" xml:base="/meu-blog/2025/07/01/QuimEdu-simulador-Educacional.html"><![CDATA[<h1 id="-quimedu-um-simulador-educacional-interativo-para-química">🧪 QuimEdu: Um Simulador Educacional Interativo para Química</h1>
 
 <p><strong>Python</strong>, <strong>Jupyter Notebook</strong>, <strong>Jekyll</strong>, <strong>Markdown</strong>, <strong>Microsoft Partner</strong>.</p>
 
@@ -46,7 +66,7 @@
   <li><a href="/suporte/">Suporte</a></li>
 </ul>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[🧪 QuimEdu: Um Simulador Educacional Interativo para Química]]></summary></entry><entry><title type="html">Suporte</title><link href="http://localhost:4000/suporte/" rel="alternate" type="text/html" title="Suporte" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>http://localhost:4000/suport</id><content type="html" xml:base="http://localhost:4000/suporte/"><![CDATA[<h1 id="suporte-ao-usuário">Suporte ao Usuário</h1>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[🧪 QuimEdu: Um Simulador Educacional Interativo para Química]]></summary></entry><entry><title type="html">Suporte</title><link href="/meu-blog/suporte/" rel="alternate" type="text/html" title="Suporte" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>/meu-blog/suport</id><content type="html" xml:base="/meu-blog/suporte/"><![CDATA[<h1 id="suporte-ao-usuário">Suporte ao Usuário</h1>
 
 <p>Precisa de ajuda com o <strong>QuimEdu</strong>? Estamos aqui para ajudar!</p>
 
@@ -67,7 +87,7 @@
 
 <hr />
 
-<p><em>Agradecemos por usar o QuimEdu. Nosso compromisso é com a educação, a ciência e a transparência.</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Suporte ao Usuário]]></summary></entry><entry><title type="html">Política de Privacidade</title><link href="http://localhost:4000/privacidade/" rel="alternate" type="text/html" title="Política de Privacidade" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>http://localhost:4000/privacy-police</id><content type="html" xml:base="http://localhost:4000/privacidade/"><![CDATA[<h1 id="política-de-privacidade">Política de Privacidade</h1>
+<p><em>Agradecemos por usar o QuimEdu. Nosso compromisso é com a educação, a ciência e a transparência.</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Suporte ao Usuário]]></summary></entry><entry><title type="html">Política de Privacidade</title><link href="/meu-blog/privacidade/" rel="alternate" type="text/html" title="Política de Privacidade" /><published>2025-07-01T00:00:00-03:00</published><updated>2025-07-01T00:00:00-03:00</updated><id>/meu-blog/privacy-police</id><content type="html" xml:base="/meu-blog/privacidade/"><![CDATA[<h1 id="política-de-privacidade">Política de Privacidade</h1>
 
 <p>Última atualização: 01 de julho de 2025</p>
 
@@ -98,7 +118,71 @@
 <h2 id="-contato">📫 Contato</h2>
 
 <p>Para questões relacionadas à privacidade, envie um e-mail para<br />
-<a href="mailto:tiagomoreira@quimio.tech">tiagomoreira@quimio.tech</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Política de Privacidade]]></summary></entry><entry><title type="html">Gerando mapa de Carga Jupyter</title><link href="http://localhost:4000/2025/06/08/gerar-mapa-de-carga.html" rel="alternate" type="text/html" title="Gerando mapa de Carga Jupyter" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/08/gerar-mapa-de-carga</id><content type="html" xml:base="http://localhost:4000/2025/06/08/gerar-mapa-de-carga.html"><![CDATA[<h1 id="passo-1">passo 1</h1>
+<a href="mailto:tiagomoreira@quimio.tech">tiagomoreira@quimio.tech</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Política de Privacidade]]></summary></entry><entry><title type="html">Dask e novidades</title><link href="/meu-blog/2025/06/08/Dask-e-novidades.html" rel="alternate" type="text/html" title="Dask e novidades" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>/meu-blog/2025/06/08/Dask-e-novidades</id><content type="html" xml:base="/meu-blog/2025/06/08/Dask-e-novidades.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Usar Extensões do Chrome (.crx) com Selenium</title><link href="/meu-blog/automacao/selenium/navegador/2025/06/08/extensions-selenium.html" rel="alternate" type="text/html" title="Usar Extensões do Chrome (.crx) com Selenium" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>/meu-blog/automacao/selenium/navegador/2025/06/08/extensions-selenium</id><content type="html" xml:base="/meu-blog/automacao/selenium/navegador/2025/06/08/extensions-selenium.html"><![CDATA[<h2 id="-visão-geral">🔍 Visão Geral</h2>
+
+<p>Neste post mostro como <strong>usar extensões do Chrome (.crx)</strong> com Selenium, focando em automações como testes de WhatsApp Web, YouTube etc.</p>
+
+<hr />
+
+<h2 id="-passo-1--encontrar-o-id-da-extensão">🎯 Passo 1 — Encontrar o ID da extensão</h2>
+
+<p>Exemplo:</p>
+
+<p>https://chromewebstore.google.com/detail/sponsorblock/mnjggcdmjocbbbhaepdhchncahnbgone</p>
+
+<p>ID: <code class="language-plaintext highlighter-rouge">mnjggcdmjocbbbhaepdhchncahnbgone</code></p>
+
+<hr />
+
+<h2 id="-passo-2--baixar-o-crx">🧩 Passo 2 — Baixar o <code class="language-plaintext highlighter-rouge">.crx</code></h2>
+
+<p>Use um dos sites:</p>
+
+<ul>
+  <li><a href="https://chrome-extension-downloader.com">chrome-extension-downloader.com</a></li>
+  <li><a href="https://crx.dam.io">crx.dam.io</a></li>
+</ul>
+
+<p>Cole o link da extensão e baixe o <code class="language-plaintext highlighter-rouge">.crx</code>.</p>
+
+<hr />
+
+<h2 id="-passo-3--usar-com-selenium">💻 Passo 3 — Usar com Selenium</h2>
+
+<p>```python
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options</p>
+
+<p>options = Options()
+options.add_extension(‘/caminho/para/SponsorBlock.crx’)</p>
+
+<p>driver = webdriver.Chrome(options=options)
+driver.get(“https://web.whatsapp.com”)</p>
+
+<p>🧠 Dica extra: Repositório de extensões confiáveis
+Você pode manter um diretório com .crx revisados para uso interno ou educacional.</p>
+
+<p>Exemplo de estrutura:</p>
+
+<p>plaintext
+Copiar
+Editar
+meu_blog/
+└── assets/
+    └── crx/
+        ├── sponsorblock.crx
+        ├── darkreader.crx
+        └── custom-blocker.crx
+E incluir no Selenium:</p>
+
+<p>python
+Copiar
+Editar
+options.add_extension(‘assets/crx/sponsorblock.crx’)
+📘 Finalizando
+Esse método permite uma automação mais flexível, sem depender de uma instalação manual das extensões no navegador. Ideal para projetos com foco em testes, scraping, e automações web avançadas.</p>
+
+<p>Fique à vontade para adaptar o código e ampliar a lista de extensões úteis! 🚀</p>]]></content><author><name></name></author><category term="automacao" /><category term="selenium" /><category term="navegador" /><summary type="html"><![CDATA[🔍 Visão Geral]]></summary></entry><entry><title type="html">Gerando mapa de Carga Jupyter</title><link href="/meu-blog/2025/06/08/gerar-mapa-de-carga.html" rel="alternate" type="text/html" title="Gerando mapa de Carga Jupyter" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>/meu-blog/2025/06/08/gerar-mapa-de-carga</id><content type="html" xml:base="/meu-blog/2025/06/08/gerar-mapa-de-carga.html"><![CDATA[<h1 id="passo-1">passo 1</h1>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">rdkit</span><span class="o">-</span>
 
@@ -237,71 +321,7 @@ F | -0.16471144158182188
 <p><img src="output_8_1.png" alt="png" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[passo 1]]></summary></entry><entry><title type="html">Usar Extensões do Chrome (.crx) com Selenium</title><link href="http://localhost:4000/automacao/selenium/navegador/2025/06/08/extensions-selenium.html" rel="alternate" type="text/html" title="Usar Extensões do Chrome (.crx) com Selenium" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>http://localhost:4000/automacao/selenium/navegador/2025/06/08/extensions-selenium</id><content type="html" xml:base="http://localhost:4000/automacao/selenium/navegador/2025/06/08/extensions-selenium.html"><![CDATA[<h2 id="-visão-geral">🔍 Visão Geral</h2>
-
-<p>Neste post mostro como <strong>usar extensões do Chrome (.crx)</strong> com Selenium, focando em automações como testes de WhatsApp Web, YouTube etc.</p>
-
-<hr />
-
-<h2 id="-passo-1--encontrar-o-id-da-extensão">🎯 Passo 1 — Encontrar o ID da extensão</h2>
-
-<p>Exemplo:</p>
-
-<p>https://chromewebstore.google.com/detail/sponsorblock/mnjggcdmjocbbbhaepdhchncahnbgone</p>
-
-<p>ID: <code class="language-plaintext highlighter-rouge">mnjggcdmjocbbbhaepdhchncahnbgone</code></p>
-
-<hr />
-
-<h2 id="-passo-2--baixar-o-crx">🧩 Passo 2 — Baixar o <code class="language-plaintext highlighter-rouge">.crx</code></h2>
-
-<p>Use um dos sites:</p>
-
-<ul>
-  <li><a href="https://chrome-extension-downloader.com">chrome-extension-downloader.com</a></li>
-  <li><a href="https://crx.dam.io">crx.dam.io</a></li>
-</ul>
-
-<p>Cole o link da extensão e baixe o <code class="language-plaintext highlighter-rouge">.crx</code>.</p>
-
-<hr />
-
-<h2 id="-passo-3--usar-com-selenium">💻 Passo 3 — Usar com Selenium</h2>
-
-<p>```python
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options</p>
-
-<p>options = Options()
-options.add_extension(‘/caminho/para/SponsorBlock.crx’)</p>
-
-<p>driver = webdriver.Chrome(options=options)
-driver.get(“https://web.whatsapp.com”)</p>
-
-<p>🧠 Dica extra: Repositório de extensões confiáveis
-Você pode manter um diretório com .crx revisados para uso interno ou educacional.</p>
-
-<p>Exemplo de estrutura:</p>
-
-<p>plaintext
-Copiar
-Editar
-meu_blog/
-└── assets/
-    └── crx/
-        ├── sponsorblock.crx
-        ├── darkreader.crx
-        └── custom-blocker.crx
-E incluir no Selenium:</p>
-
-<p>python
-Copiar
-Editar
-options.add_extension(‘assets/crx/sponsorblock.crx’)
-📘 Finalizando
-Esse método permite uma automação mais flexível, sem depender de uma instalação manual das extensões no navegador. Ideal para projetos com foco em testes, scraping, e automações web avançadas.</p>
-
-<p>Fique à vontade para adaptar o código e ampliar a lista de extensões úteis! 🚀</p>]]></content><author><name></name></author><category term="automacao" /><category term="selenium" /><category term="navegador" /><summary type="html"><![CDATA[🔍 Visão Geral]]></summary></entry><entry><title type="html">Dask e novidades</title><link href="http://localhost:4000/2025/06/08/Dask-e-novidades.html" rel="alternate" type="text/html" title="Dask e novidades" /><published>2025-06-08T00:00:00-03:00</published><updated>2025-06-08T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/08/Dask-e-novidades</id><content type="html" xml:base="http://localhost:4000/2025/06/08/Dask-e-novidades.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Como usar Python em quimica</title><link href="http://localhost:4000/2025/06/07/Como-usar-Python-em-quimica.html" rel="alternate" type="text/html" title="Como usar Python em quimica" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/07/Como-usar-Python-em-quimica</id><content type="html" xml:base="http://localhost:4000/2025/06/07/Como-usar-Python-em-quimica.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Frameworks similares</title><link href="http://localhost:4000/go/next/2025/06/07/frameworks-similares.html" rel="alternate" type="text/html" title="Frameworks similares" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/go/next/2025/06/07/frameworks-similares</id><content type="html" xml:base="http://localhost:4000/go/next/2025/06/07/frameworks-similares.html"><![CDATA[]]></content><author><name></name></author><category term="Go" /><category term="next" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jekyll, Ruby. Criando site técnico Back-end rodando localmente</title><link href="http://localhost:4000/2025/06/07/Subindo-em-backend.html" rel="alternate" type="text/html" title="Jekyll, Ruby. Criando site técnico Back-end rodando localmente" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/07/Subindo-em-backend</id><content type="html" xml:base="http://localhost:4000/2025/06/07/Subindo-em-backend.html"><![CDATA[<h1 id="-testando-a-qualidade-de-um-site-estático-para-reportes-técnicos">🎉 Testando a qualidade de um site estático para reportes técnicos.</h1>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[passo 1]]></summary></entry><entry><title type="html">Como usar Python em quimica</title><link href="/meu-blog/2025/06/07/Como-usar-Python-em-quimica.html" rel="alternate" type="text/html" title="Como usar Python em quimica" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>/meu-blog/2025/06/07/Como-usar-Python-em-quimica</id><content type="html" xml:base="/meu-blog/2025/06/07/Como-usar-Python-em-quimica.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Frameworks similares</title><link href="/meu-blog/go/next/2025/06/07/frameworks-similares.html" rel="alternate" type="text/html" title="Frameworks similares" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>/meu-blog/go/next/2025/06/07/frameworks-similares</id><content type="html" xml:base="/meu-blog/go/next/2025/06/07/frameworks-similares.html"><![CDATA[]]></content><author><name></name></author><category term="Go" /><category term="next" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jekyll, Ruby. Criando site técnico Back-end rodando localmente</title><link href="/meu-blog/2025/06/07/Subindo-em-backend.html" rel="alternate" type="text/html" title="Jekyll, Ruby. Criando site técnico Back-end rodando localmente" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>/meu-blog/2025/06/07/Subindo-em-backend</id><content type="html" xml:base="/meu-blog/2025/06/07/Subindo-em-backend.html"><![CDATA[<h1 id="-testando-a-qualidade-de-um-site-estático-para-reportes-técnicos">🎉 Testando a qualidade de um site estático para reportes técnicos.</h1>
 
 <p><strong>Ruby</strong> , <strong>Jekyll</strong>, <strong>powershell</strong> .</p>
 
@@ -317,4 +337,4 @@ Esse método permite uma automação mais flexível, sem depender de uma instala
 
 <p>Isso é somente um teste. Depois vou colocar o markdown no Jypyter Notebook e ver. Estou editando pelo bloco de notas.</p>
 
-<p><img src="/assets/images/atento.png" alt="Imagem de atenção" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[🎉 Testando a qualidade de um site estático para reportes técnicos.]]></summary></entry><entry><title type="html">Savar em PDF</title><link href="http://localhost:4000/2025/06/07/Savar-em-PDF.html" rel="alternate" type="text/html" title="Savar em PDF" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/2025/06/07/Savar-em-PDF</id><content type="html" xml:base="http://localhost:4000/2025/06/07/Savar-em-PDF.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p><img src="/assets/images/atento.png" alt="Imagem de atenção" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[🎉 Testando a qualidade de um site estático para reportes técnicos.]]></summary></entry></feed>
