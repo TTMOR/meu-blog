@@ -1,0 +1,63 @@
+I"�<p>A quimioinformática é uma área que une química, ciência de dados e computação para analisar, modelar e prever propriedades de compostos químicos. Python tem se tornado uma das linguagens mais utilizadas nesse campo, graças à sua simplicidade e ao vasto ecossistema de bibliotecas científicas.</p>
+
+<hr />
+
+<h2 id="-aplicações-da-quimioinformática-com-python">🧪 Aplicações da quimioinformática com Python</h2>
+
+<ul>
+  <li><strong>Análise de estruturas químicas</strong>: manipulação de moléculas, átomos e ligações.</li>
+  <li><strong>Previsão de propriedades físico-químicas</strong>: como solubilidade, polaridade, toxicidade.</li>
+  <li><strong>Modelagem molecular</strong>: geração de representações 2D e 3D de compostos.</li>
+  <li><strong>QSAR/QSPR</strong>: construção de modelos preditivos baseados em descritores moleculares.</li>
+  <li><strong>Pesquisa de similaridade</strong>: comparação entre compostos com base em fingerprints.</li>
+  <li><strong>Integração com bancos de dados químicos</strong>: como PubChem, ChEMBL e DrugBank.</li>
+</ul>
+
+<hr />
+
+<h2 id="-bibliotecas-populares">📦 Bibliotecas populares</h2>
+
+<h3 id="rdkit">RDKit</h3>
+
+<p>Uma das bibliotecas mais completas para quimioinformática. Permite manipular moléculas, gerar descritores, calcular fingerprints, converter formatos e muito mais.</p>
+
+<h3 id="open-babel">Open Babel</h3>
+
+<p>Ferramenta poderosa para conversão entre formatos químicos e análise de estruturas. Suporta centenas de formatos e pode ser integrada ao Python.</p>
+
+<h3 id="chempy">ChemPy</h3>
+
+<p>Focada em química computacional e reações químicas. Permite simular equações químicas, equilíbrio e cinética.</p>
+
+<h3 id="deepchem">DeepChem</h3>
+
+<p>Voltada para aplicações de aprendizado de máquina em química e biologia. Ideal para construir modelos preditivos com redes neurais e dados moleculares.</p>
+
+<h3 id="pubchempy">PubChemPy</h3>
+
+<p>Interface simples para acessar dados do PubChem diretamente via Python. Útil para buscar compostos por CID, nome ou fórmula.</p>
+
+<h3 id="mordred">Mordred</h3>
+
+<p>Calcula centenas de descritores moleculares usados em QSAR/QSPR. Compatível com RDKit e outras bibliotecas.</p>
+
+<hr />
+
+<h2 id="-integrações-e-ecossistema">🔗 Integrações e ecossistema</h2>
+
+<p>Python permite integrar essas bibliotecas com ferramentas como:</p>
+
+<ul>
+  <li><strong>Pandas</strong> e <strong>NumPy</strong>: para manipulação de dados químicos.</li>
+  <li><strong>Scikit-learn</strong> e <strong>XGBoost</strong>: para modelagem preditiva.</li>
+  <li><strong>Matplotlib</strong> e <strong>Seaborn</strong>: para visualização de propriedades e correlações.</li>
+  <li><strong>Streamlit</strong> e <strong>Dash</strong>: para criar interfaces interativas de análise química.</li>
+</ul>
+
+<hr />
+
+<h2 id="-considerações">📌 Considerações</h2>
+
+<p>A quimioinformática com Python é altamente modular. A escolha das bibliotecas depende do tipo de dado, objetivo da análise e nível de complexidade desejado. RDKit e DeepChem são os pilares para quem deseja trabalhar com modelagem molecular e inteligência artificial aplicada à química.</p>
+
+:ET

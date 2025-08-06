@@ -1,0 +1,28 @@
+I"�<p>Salvar páginas de um site Jekyll em PDF é útil para arquivamento, distribuição offline, documentação ou geração de relatórios. Abaixo estão os principais métodos para realizar essa tarefa, desde soluções manuais até automações com linha de comando e JavaScript.</p>
+
+<hr />
+
+<h2 id="️-1-salvar-diretamente-pelo-navegador">🖨️ 1. Salvar diretamente pelo navegador</h2>
+
+<p>O método mais simples e acessível:</p>
+
+<ol>
+  <li>Acesse a página desejada no navegador.</li>
+  <li>Pressione <code class="language-plaintext highlighter-rouge">Ctrl + P</code> (Windows/Linux) ou <code class="language-plaintext highlighter-rouge">Cmd + P</code> (Mac).</li>
+  <li>Selecione “Salvar como PDF” na impressora.</li>
+  <li>Clique em “Salvar”.</li>
+</ol>
+
+<p>Esse método preserva o layout visual, incluindo estilos CSS e fontes.</p>
+
+<hr />
+
+<h2 id="-2-usar-ferramentas-de-linha-de-comando">🧰 2. Usar ferramentas de linha de comando</h2>
+
+<h3 id="wkhtmltopdf"><code class="language-plaintext highlighter-rouge">wkhtmltopdf</code></h3>
+
+<p>Ferramenta poderosa que converte páginas HTML em PDF diretamente:</p>
+
+<p>```bash
+wkhtmltopdf https: // seudominio. com/ post-url post. pdf</p>
+:ET

@@ -1,0 +1,49 @@
+I"2<p><strong>Dask</strong> é uma biblioteca Python voltada para computação paralela e distribuída, ideal para quem trabalha com grandes volumes de dados e precisa escalar além do que o <code class="language-plaintext highlighter-rouge">pandas</code> e <code class="language-plaintext highlighter-rouge">NumPy</code> conseguem oferecer em memória.</p>
+
+<hr />
+
+<h2 id="️-o-que-é-dask">⚙️ O que é Dask?</h2>
+
+<p>Dask permite executar operações em paralelo usando múltiplos núcleos ou até clusters distribuídos. Ele replica APIs conhecidas como <code class="language-plaintext highlighter-rouge">pandas</code>, <code class="language-plaintext highlighter-rouge">NumPy</code> e <code class="language-plaintext highlighter-rouge">scikit-learn</code>, facilitando a migração de código existente para ambientes mais escaláveis.</p>
+
+<p>Principais componentes:</p>
+
+<ul>
+  <li><strong>Dask DataFrame</strong>: similar ao <code class="language-plaintext highlighter-rouge">pandas</code>, mas com suporte a dados maiores que a RAM.</li>
+  <li><strong>Dask Array</strong>: similar ao <code class="language-plaintext highlighter-rouge">NumPy</code>, com paralelismo automático.</li>
+  <li><strong>Dask Delayed</strong>: permite construir pipelines de execução preguiçosa.</li>
+  <li><strong>Dask ML</strong>: integra com <code class="language-plaintext highlighter-rouge">scikit-learn</code> para treinar modelos em paralelo.</li>
+</ul>
+
+<hr />
+
+<h2 id="-novidades-recentes">🚀 Novidades recentes</h2>
+
+<h3 id="1-integração-com-arrow-e-parquet">1. Integração com Arrow e Parquet</h3>
+
+<p>Dask agora tem suporte aprimorado para leitura e escrita de arquivos <strong>Apache Arrow</strong> e <strong>Parquet</strong>, otimizando o desempenho em pipelines de dados modernos.</p>
+
+<h3 id="2-suporte-a-gpus-com-rapids">2. Suporte a GPUs com RAPIDS</h3>
+
+<p>Com a integração ao ecossistema <strong>RAPIDS</strong>, é possível usar Dask com GPUs para acelerar operações de DataFrame e Machine Learning, especialmente útil em ambientes com CUDA.</p>
+
+<h3 id="3-scheduler-adaptativo">3. Scheduler adaptativo</h3>
+
+<p>O novo scheduler adaptativo permite que Dask ajuste dinamicamente o número de workers com base na carga de trabalho, melhorando o uso de recursos em clusters.</p>
+
+<h3 id="4-melhorias-no-dask-gateway">4. Melhorias no Dask Gateway</h3>
+
+<p>O <strong>Dask Gateway</strong> facilita a criação e gerenciamento de clusters em ambientes como Kubernetes, JupyterHub e HPC. A interface foi simplificada e agora suporta autenticação integrada.</p>
+
+<hr />
+
+<h2 id="-exemplos-de-uso">🧪 Exemplos de uso</h2>
+
+<h3 id="leitura-de-dados-em-paralelo">Leitura de dados em paralelo:</h3>
+
+<p>```python
+import dask.dataframe as dd</p>
+
+<p>df = dd.read_csv(‘dados/*.csv’)
+resultado = df.groupby(‘categoria’).valor.mean().compute()</p>
+:ET
