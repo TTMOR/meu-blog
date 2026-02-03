@@ -1,6 +1,10 @@
 theme: minima
 markdown: kramdown
 baseurl: "/meu-blog"
+title: "Meu Blog"
+author: "Tiago Moreira"
+email: tiagomoreira@ttmora.onmicrosoft.com
+description: "Blog pessoal sobre tecnologia e automação"
 exclude:
   - Servidor Jekyll
   - go
@@ -10,4 +14,3 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-
